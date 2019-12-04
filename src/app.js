@@ -5,7 +5,7 @@ const forecast = require('./utils.js/forecast');
 const geocode = require('./utils.js/geocode')
 
 const app = express()
-const port = process.env.PORT || 3001
+const port = process.env.PORT || 3003
 
 const viewsPath = path.join(__dirname, '../templates/views')
 const partialsPath = path.join(__dirname, '../templates/partials')
